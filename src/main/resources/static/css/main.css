@@ -1,0 +1,101 @@
+body {
+    background-color: #95ADB6;
+}
+#input-list{
+    background-color: #CBB3BF;
+    height: 300px;
+    overflow-y: auto;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+#result{
+    background-color: #CBB3BF;
+    position: relative;
+    margin-left: 24%;
+    width: 50%;
+    height: 200px;
+    top: 100px;
+    border: 3px solid green;
+    padding: 20px;
+}
+#add{
+    position: relative;
+    left:600px;
+    top:2px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#add:hover {
+    background-color: #3e8e41;
+}
+
+#delete{
+    position: relative;
+    left:600px;
+    top:2px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #EF233C;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#delete:hover {
+    background-color: #D90429;
+}
+
+#merge{
+    position: relative;
+    left:600px;
+    top:2px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#merge:hover {
+    background-color: #3e8e41;
+}
+#submito{
+    position: relative;
+    left:600px;
+    top:2px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #FFB703;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#submito:hover {
+    background-color: #FB8500;
+}
+
+#resultText{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 150px;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

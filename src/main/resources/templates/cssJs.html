@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Css and JS</title>
+    <link th:href= "@{/css/main.css}" rel="stylesheet">
+    <script type = "text/javascript" th:src="@{/js/actions.js}"></script>
+
+</head>
+<body>
+        <button type="button" th:onclick="demo()"> Show alert</button>
+            <div id="input-list">
+                <input type="text" name="item">
+                <br>
+                <input type="text" name="item">
+                <br>
+            </div>
+
+
+        <button id = "add" th:onclick="addItem()">Add Input</button>
+        <button id = "delete" th:onclick="deleteItem()">Delete Input</button>
+        <button id = "merge" th:onclick="merge()">Save</button>
+
+        <div id="result">
+            <form action="#" th:action="@{/output}" method="post">
+                <input type="text" name="resultText" id="resultText" th:value="${message}" th:text="${time}"></input>
+                <button id = "submito"type="submit">Gönder</button>
+            </form>
+
+
+        </div>
+</body>
+</html>
